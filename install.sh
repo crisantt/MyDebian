@@ -8,9 +8,13 @@ mkdir -p ~/.icons
 mkdir -p ~/github
 
 bash ~/github/MyDebian/scripts/packages.sh
+clear
 
 bash ~/github/MyDebian/scripts/bspwm.sh
+clear
 
 bash ~/github/MyDebian/scripts/fonts.sh
+clear
 
 bash ~/github/MyDebian/scripts/build-from-source.sh
+clear
