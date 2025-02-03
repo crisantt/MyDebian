@@ -1,4 +1,4 @@
-# MyDebian
+# Vanilla Bspwm with Debian Bookworm
 
 ```
 mkdir -p ~/github && cd ~/github
