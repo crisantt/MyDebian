@@ -3,7 +3,7 @@ sudo apt install lxappearance fonts-dejavu fonts-font-awesome fonts-noto-core fo
 
 cd ~/.fonts
 
-fonts=("ForaCode" "JetBrainsMono" "Mononoki" "Terminus" "CommitMono" "Noto")
+fonts=("FiraCode" "JetBrainsMono" "Mononoki" "Terminus" "CommitMono" "Noto")
 
 for font in "${fonts[@]}"; do
     wget "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/${font}.zip"
