@@ -14,9 +14,9 @@ sudo make install
 #Rust
 cd ~/
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+. "$HOME/.cargo/env"
 rustup override set stable
 rustup update stable
-. "$HOME/.cargo/env"
 
 #Alacritty
 sudo apt install cmake g++ pkg-config libfreetype6-dev libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev python3 scdoc gzip -y
