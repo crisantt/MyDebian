@@ -7,14 +7,14 @@ mkdir -p ~/.themes
 mkdir -p ~/.icons
 mkdir -p ~/github
 
-bash ~/github/MyDebian/scripts/packages.sh
+bash ~/github/bspwm-debian/scripts/packages.sh
 clear
 
-bash ~/github/MyDebian/scripts/bspwm.sh
+bash ~/github/bspwm-debian/scripts/bspwm.sh
 clear
 
-bash ~/github/MyDebian/scripts/fonts.sh
+bash ~/github/bspwm-debian/scripts/fonts.sh
 clear
 
-bash ~/github/MyDebian/scripts/build-from-source.sh
+bash ~/github/bspwm-debian/scripts/build-from-source.sh
 clear
