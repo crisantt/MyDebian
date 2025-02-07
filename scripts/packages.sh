@@ -1,7 +1,9 @@
 #!/bin/bash
 sudo apt install build-essential xorg xinit x11-xserver-utils \
 libx11-dev xorg-dev xserver-xorg-video-amdgpu pkg-config \
-clangd make curl wget -y
+clangd make curl wget \
+libx11-dev libxft-dev libxinerama-dev libxrandr-dev \
+libxtst-dev libpango1.0-dev libxpm-dev libncurses5-dev -y
 
 #AMD Mesa Drivers
 sudo dpkg --add-architecture i386
