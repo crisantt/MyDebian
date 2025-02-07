@@ -4,5 +4,5 @@
 mkdir -p ~/github && cd ~/github
 git clone https://github.com/crisantt/bspwm-debian.git
 cd bspwm-debian
-bash ~/github/MyDebian/install.sh
+bash ~/github/bspwm-debian/install.sh
 ```
