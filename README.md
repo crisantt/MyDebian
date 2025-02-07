@@ -2,7 +2,7 @@
 
 ```
 mkdir -p ~/github && cd ~/github
-git clone https://github.com/crisantt/MyDebian.git
-cd MyDebian
+git clone https://github.com/crisantt/bspwm-debian.git
+cd bspwm-debian
 bash ~/github/MyDebian/install.sh
 ```
