@@ -6,6 +6,7 @@ mkdir -p ~/.fonts
 mkdir -p ~/.themes
 mkdir -p ~/.icons
 mkdir -p ~/github
+mkdir -p ~/packages
 
 bash ~/github/bspwm-debian/scripts/packages.sh
 clear
