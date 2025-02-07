@@ -54,7 +54,7 @@ sudo apt update && sudo apt install codium -y
 #Zen-Browser (2025-feb-05)
 cd ~/packages
 wget https://github.com/zen-browser/desktop/releases/download/1.7.4b/zen.linux-x86_64.tar.bz2
-tar -zvjf zen.linux-x86_64.tar.bz2
+tar -xjf zen.linux-x86_64.tar.bz2
 echo "export PATH=\$PATH:\$HOME/packages/zen" >> $HOME/.bashrc
 source ~/.bashrc
 sudo ln -sf $HOME/packages/zen/zen-bin /usr/local/bin/zen
