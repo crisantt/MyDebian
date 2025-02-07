@@ -1,5 +1,7 @@
 #!/bin/bash
-sudo apt install bspwm sxhkd rofi xclip dunst thunar pavucontrol kitty -y
+sudo apt install bspwm sxhkd rofi xclip dunst kitty polybar \
+network-manager network-manager-gnome pavucontrol pamixer pulsemixer \
+thunar thunar-archive-plugin xdg-user-dirs-gtk libnotify-bin libnotify-dev -y
 
 mkdir -p ~/.config/bspwm && mkdir -p ~/.config/sxhkd
 cp /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm/bspwmrc
